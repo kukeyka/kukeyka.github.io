@@ -182,21 +182,24 @@
     }
     .vuz{
         max-width: 70%;
-    }
+    }   
 }
 @media (max-width: 500px) {
     .page2{
         flex-direction: column;
+        height: 550px;
     }
     .page2left{
         width: 100%;
       }
       .page2right{
         width: 100%;
-        justify-content: flex-start;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction:row;
       }
       .vuz{
-        max-width: 50%;
+        max-width: 60%;
     }
     .base{
         width: 100%;
@@ -237,9 +240,16 @@
     .page3left{
         width: 100%;
         flex-direction:row; 
+        align-items: center;
+        justify-content: center;
+        flex-direction:row;
+        height: 50%;
       }
       .page3right{
         width: 100%;
-        justify-content: flex-start;
+        height: auto;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction:row;
       }
   }
